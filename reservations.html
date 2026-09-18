@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserve a Table — Anar Persian Kitchen, North Vancouver</title>
+<meta name="description" content="Book a table at Anar Persian Kitchen on Lonsdale Avenue in North Vancouver. Dinner, weekend brunch, large-party set menus and same-day bookings by phone at (604) 987-3142.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Anar Persian Kitchen</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="catering.html">Catering</a>
+      <a href="reservations.html" class="is-current">Reservations</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Reserve a Table</h1>
+      <p>Fifteen years of charcoal, saffron and family tables in North Vancouver. Tell us when you're coming and we'll have the bread warm.</p>
+      <p>
+        <a class="button button-primary" href="#book">Fill in the booking form</a>
+        <a class="button button-secondary" href="tel:+16049873142">Call (604) 987-3142</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Before you book</h2>
+      <p>Most nights, a day or two of notice is plenty. Friday and Saturday dinner are the exceptions — those tables usually go a week ahead, and the 6:30 to 8:00 window goes first. Weekend brunch fills late in the week, especially the window seats along Lonsdale.</p>
+      <p>Tuesday through Thursday we can almost always find you a table, even at short notice. If you want the big round table near the kitchen pass, ask for it by name: we call it the family table, and it seats eight comfortably.</p>
+      <dl class="facts">
+        <div class="fact">
+          <dt>Busiest services</dt>
+          <dd>Friday and Saturday dinner; Sunday brunch after 11:00</dd>
+        </div>
+        <div class="fact">
+          <dt>Quietest services</dt>
+          <dd>Tuesday and Wednesday dinner</dd>
+        </div>
+        <div class="fact">
+          <dt>Table held for</dt>
+          <dd>20 minutes past your booking time</dd>
+        </div>
+        <div class="fact">
+          <dt>Online bookings for</dt>
+          <dd>Parties of 1 to 8 — call us for 9 or more</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="book">
+    <div class="container">
+      <h2>Booking form</h2>
+      <p>One form, no account, no app. We read every note — if it's a birthday, a first date or a table that needs to be out the door by 7:15, say so here.</p>
+      <form class="form" action="mailto:hello@anarkitchen.ca" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name for the booking</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="field">
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div class="field">
+          <label for="time">Preferred time</label>
+          <input id="time" name="time" type="time" required>
+        </div>
+        <div class="field">
+          <label for="party">Party size (1–8)</label>
+          <input id="party" name="party" type="number" min="1" max="8" step="1" value="2" required>
+        </div>
+        <div class="field">
+          <label for="occasion">Occasion (optional)</label>
+          <input id="occasion" name="occasion" type="text" list="occasions">
+          <datalist id="occasions">
+            <option value="Birthday"></option>
+            <option value="Anniversary"></option>
+            <option value="Family dinner"></option>
+            <option value="Work dinner"></option>
+            <option value="Weekend brunch"></option>
+            <option value="Nowruz"></option>
+          </datalist>
+        </div>
+        <div class="field">
+          <label for="dietary">Dietary notes</label>
+          <input id="dietary" name="dietary" type="text">
+        </div>
+        <div class="field">
+          <label for="requests">Special requests</label>
+          <textarea id="requests" name="requests" rows="4"></textarea>
+        </div>
+        <div class="field">
+          <label for="seating">Seating preference</label>
+          <select id="seating" name="seating">
+            <option value="no-preference">No preference</option>
+            <option value="window">Window along Lonsdale</option>
+            <option value="booth">Quiet booth at the back</option>
+            <option value="family-table">The family table (seats up to 8)</option>
+            <option value="patio">Patio, weather permitting</option>
+          </select>
+        </div>
+        <p>
+          <button class="button button-primary" type="submit">Send booking request</button>
+        </p>
+        <p>Sending this form opens your email program with the details filled in. If that's awkward, write to <a href="mailto:hello@anarkitchen.ca">hello@anarkitchen.ca</a> or simply call us.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>What happens next</h2>
+      <p>A request isn't a confirmed table yet. One of us reads it, checks the book, and gets back to you — by phone if you've asked for a same-day table, otherwise by email.</p>
+      <ul class="card-grid">
+        <li class="card">
+          <h3>Within a few hours</h3>
+          <p>We reply during opening times, usually inside three hours. Requests that arrive overnight are answered after we open at 11:30.</p>
+        </li>
+        <li class="card">
+          <h3>If your time is taken</h3>
+          <p>We'll offer the nearest slot we have, often 30 or 45 minutes either side. Say yes or no — no pressure, no deposit.</p>
+        </li>
+        <li class="card">
+          <h3>Your notes travel with you</h3>
+          <p>Allergies, a birthday candle in the saffron ice cream, a highchair at the end of the table: it's written on the booking and read at the pass.</p>
+        </li>
+        <li class="card">
+          <h3>Nothing arrived?</h3>
+          <p>Check your spam folder for a message from anarkitchen.ca, then call <a href="tel:+16049873142">(604) 987-3142</a>. We'd rather hear from you twice than lose your table.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Large groups and private dining</h2>
+      <p>Nine or more, and we stop using the online form. Big tables need a little planning so the kitchen can send the charcoal skewers together instead of in dribs and drabs.</p>
+      <p>Call <a href="tel:+16049873142">(604) 987-3142</a> or write to <a href="mailto:hello@anarkitchen.ca">hello@anarkitchen.ca</a> and we'll walk you through it. Groups of nine to sixteen order from a short set menu — three or four mezze to share, a choice of kabab or stew, rice, and dessert. It keeps the service calm and the bill simple.</p>
+      <p>The back room seats twenty-two on its own and can be closed off with the curtain. For thirty to fifty-five people we buy out the whole dining room, usually on a Sunday evening or a Monday when we're normally shut. Weddings, Nowruz dinners and office parties all end up there.</p>
+      <dl class="facts">
+        <div class="fact">
+          <dt>Set menu from</dt>
+          <dd>9 guests</dd>
+        </div>
+        <div class="fact">
+          <dt>Back room</dt>
+          <dd>Up to 22 seated</dd>
+        </div>
+        <div class="fact">
+          <dt>Full buyout</dt>
+          <dd>30–55 guests</dd>
+        </div>
+        <div class="fact">
+          <dt>Notice we like</dt>
+          <dd>Two weeks for a room, four for a buyout</dd>
+        </div>
+      </dl>
+      <p><a class="button button-secondary" href="catering.html">See catering and set menus</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Cancellations, late arrivals and walk-ins</h2>
+      <h3>Changing or cancelling</h3>
+      <p>Plans change. Let us know by phone or email and there's no charge for tables of eight or fewer — a few hours' notice is kind, but we'll never scold you. For a booked room or a buyout we ask for five days' notice, since we've turned other bookings away to hold it.</p>
+      <h3>Running late</h3>
+      <p>We hold your table twenty minutes. Call if the Upper Levels is crawling and we'll do our best to stretch it; on a full Friday we may have to move you to a later seating or the counter.</p>
+      <h3>Walk-ins</h3>
+      <p>We always keep four seats at the counter and two two-tops unreserved. Come early, around 5:30, or late, after 8:30, and you'll usually get straight in. Between those hours on a weekend, expect to wait — there's a bench inside and tea while you do.</p>
+      <blockquote class="quote">
+        <p>We booked the back room for my mother's seventieth with two weeks' notice. They remembered she can't have walnuts, and they brought the rice out whole, tahdig side up, so everyone could see it before it was broken.</p>
+        <cite>Roya M., Lynn Valley</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Hours, address and parking</h2>
+      <dl class="facts">
+        <div class="fact">
+          <dt>Tuesday to Thursday</dt>
+          <dd>11:30 – 21:30</dd>
+        </div>
+        <div class="fact">
+          <dt>Friday and Saturday</dt>
+          <dd>11:30 – 22:30</dd>
+        </div>
+        <div class="fact">
+          <dt>Sunday brunch</dt>
+          <dd>10:00 – 15:00, dinner 17:00 – 21:00</dd>
+        </div>
+        <div class="fact">
+          <dt>Monday</dt>
+          <dd>Closed, except for private bookings</dd>
+        </div>
+      </dl>
+      <p>We're at 1284 Lonsdale Avenue, North Vancouver, BC V7M 2H6 — mid-block on the east side, two doors up from the flower shop, with a red awning and a pomegranate painted on the glass.</p>
+      <p>Metered street parking runs along Lonsdale and is free after 18:00. There's a city lot on West 13th Street, half a block west, which is where most of our guests end up. The 232 and the R2 RapidBus both stop within a two-minute walk.</p>
+
+      <h3>Finding us</h3>
+      <ul class="card-grid">
+        <li class="card">
+          <h3>The address</h3>
+          <p>
+            Anar Persian Kitchen<br>
+            1284 Lonsdale Avenue<br>
+            North Vancouver, BC V7M 2H6
+          </p>
+          <p><a href="tel:+16049873142">(604) 987-3142</a> · <a href="mailto:hello@anarkitchen.ca">hello@anarkitchen.ca</a></p>
+        </li>
+        <li class="card">
+          <h3>Driving up Lonsdale</h3>
+          <p>Come up Lonsdale from the waterfront and keep going past the shops. We're on the east side, your right, between 12th and 13th. Look for the red awning.</p>
+        </li>
+        <li class="card">
+          <h3>Where to park</h3>
+          <p>The side streets off Lonsdale are the easy answer, a block either way. If they're full, the pay lot around the corner on West 13th is half a block west of our door.</p>
+        </li>
+        <li class="card">
+          <h3>Bus and SeaBus</h3>
+          <p>Take the Lonsdale bus up from Lonsdale Quay and get off at 13th — we're half a block along. On foot from the SeaBus terminal it's about ten minutes up the hill.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2>Same-day table? Just phone.</h2>
+      <p>The book by the till is the fastest way in. We answer between 11:30 and close.</p>
+      <p>
+        <a class="button button-primary" href="tel:+16049873142">(604) 987-3142</a>
+        <a class="button button-secondary" href="menu.html">Read the menu first</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>Anar Persian Kitchen</strong> — 1284 Lonsdale Avenue, North Vancouver, BC V7M 2H6</p>
+    <p><a href="mailto:hello@anarkitchen.ca">hello@anarkitchen.ca</a> · <a href="tel:+16049873142">(604) 987-3142</a></p>
+    <p>Tue–Thu 11:30–21:30 · Fri–Sat 11:30–22:30 · Sun 10:00–15:00 and 17:00–21:00 · Mon closed</p>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="catering.html">Catering</a>
+      <a href="reservations.html" class="is-current">Reservations</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
