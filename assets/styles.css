@@ -522,6 +522,8 @@ a:hover {
   background-color: var(--bg);
 }
 
+.form-trap { position: absolute; left: -9999px; }
+
 .field {
   display: grid;
   gap: var(--sp-1);
